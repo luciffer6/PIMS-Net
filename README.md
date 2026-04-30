@@ -23,10 +23,7 @@ scikit-learn>=1.2.0
 Pillow>=9.0.0
 tqdm>=4.64.0
 
-
 Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
-
-## Data Preparation
