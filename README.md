@@ -39,25 +39,23 @@ The main components of PIMS-Net are:
 
 ## Repository Structure
 
-The code is organized as follows:
-
 ```text
 PIMS-Net/
-鈹溾攢鈹€ main.py                         # Main training entry point
-鈹溾攢鈹€ config/
-鈹�   鈹斺攢鈹€ configs.py                  # Variable names, SIC lookup table, and dataset constants
-鈹溾攢鈹€ model/
-鈹�   鈹斺攢鈹€ PIMS_Net.py                 # PIMS-Net architecture
-鈹溾攢鈹€ utils/
-鈹�   鈹溾攢鈹€ data_loader.py              # Dataset loader for multi-source NetCDF scenes
-鈹�   鈹溾攢鈹€ train_model_regression.py   # Training and validation loop for SIC regression
-鈹�   鈹斺攢鈹€ functions.py                # Metric utilities, e.g., r2_metric
-鈹溾攢鈹€ dataset/
-鈹�   鈹斺攢鈹€ txt/
-鈹�       鈹溾攢鈹€ train.txt               # Paths to training scenes
-鈹�       鈹溾攢鈹€ val.txt                 # Paths to validation scenes
-鈹�       鈹斺攢鈹€ test.txt                # Paths to test scenes
-鈹斺攢鈹€ README.md
+├── main.py                         # Main training entry point
+├── config/
+│   └── configs.py                  # Variable names, SIC lookup table, and dataset constants
+├── model/
+│   └── PIMS_Net.py                 # PIMS-Net architecture
+├── utils/
+│   ├── data_loader.py              # Dataset loader for multi-source NetCDF scenes
+│   ├── train_model_regression.py   # Training and validation loop for SIC regression
+│   └── functions.py                # Metric utilities, e.g., r2_metric
+├── dataset/
+│   └── txt/
+│       ├── train.txt               # Paths to training scenes
+│       ├── val.txt                 # Paths to validation scenes
+│       └── test.txt                # Paths to test scenes
+└── README.md
 ```
 
 Please make sure the actual directory names match the imports used in `main.py`:
