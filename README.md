@@ -104,8 +104,6 @@ The input variables are defined in `config/configs.py`. The default input contai
 ```text
 nersc_sar_primary
 nersc_sar_secondary
-sar_incidenceangle
-distance_map
 ```
 
 ### AMSR2 brightness temperature channels
