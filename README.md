@@ -322,24 +322,6 @@ In the reported experiments, PIMS-Net achieved the following test-set performanc
 
 ---
 
-## Citation
-
-If you use this code in your research, please cite the associated manuscript:
-
-```bibtex
-@article{liu2026pimsnet,
-  title   = {Sea Ice Concentration Estimation via Physical Information-Guided Multi-Source Data Fusion and Spatial Continuity Preservation},
-  author  = {Liu, Xinyi and Deng, Wanxia and Liu, Lei and Ding, Jinfeng and Cheng, Xiao},
-  journal = {International Journal of Applied Earth Observation and Geoinformation},
-  year    = {2026},
-  note    = {Under review}
-}
-```
-
-Please update the BibTeX entry after publication.
-
----
-
 ## Contact
 
 For questions about the code or manuscript, please contact:
